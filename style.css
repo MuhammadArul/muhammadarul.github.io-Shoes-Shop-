@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav {
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+
+.btn {
+    width: 100px;
+    border-radius: 20px;
+}
+
+#Home {
+    background-image: linear-gradient(#3d85c6, #674ea7);
+}
+
+.textBox {
+    padding: 14rem 7rem;
+}
+
+.textBox h2 {
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+
+.textBox h2 span {
+    color: #e78585;
+
+}
+
+.textBox p {
+    color: whitesmoke;
+
+}
+
+
+#Home {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#Home .imgBox {
+    width: 100%;
+    position: relative;
+    right: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#YourShoes {
+    background-color: #674ea7;
+    padding: 2rem 2rem;
+}
+
+#YourShoes .card {
+    background-color: #8f6fe1;
+    border-radius: 2rem;
+}
+
+.card .btn {
+    width: 75%;
+}
+
+ion-icon {
+    width: 30px;
+    height: 40px;
+    position: relative;
+    right: -1.2rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+#Contact ul {
+    display: flex;
+    justify-content: center;
+}
+
+#Contact ul li {
+    list-style: none;
+    margin-top: 5rem;
+    margin-right: 4rem;
+}
+
+#Contact ul li ion-icon {
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+footer {
+    background-color: #674ea7;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width:768px) {
+    .textBox {
+        padding: 27rem 3rem;
+        position: relative;
+        top: 10rem;
+    }
+
+    .shoes {
+        position: relative;
+        bottom: 14rem;
+        right: 10rem;
+    }
+
+    #YourShoes {
+        position: relative;
+        bottom: 3rem;
+    }
+
+    #Contact ul li {
+        list-style: none;
+        margin-top: 5rem;
+        margin-right: 2rem;
+    }
+
+    #Contact ul li ion-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+
+}
